@@ -1,13 +1,15 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 30, 2017 at 05:22 PM
--- Server version: 10.1.21-MariaDB
--- PHP Version: 5.6.30
+-- Generation Time: Apr 25, 2019 at 07:58 PM
+-- Server version: 10.1.38-MariaDB
+-- PHP Version: 7.1.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -38,11 +40,11 @@ CREATE TABLE `items` (
 --
 
 INSERT INTO `items` (`id`, `name`, `price`, `deleted`) VALUES
-(1, 'Item 1', 25, 1),
-(2, 'Item 2', 45, 0),
-(3, 'Item 3', 20, 0),
-(4, 'Item 4', 15, 1),
-(5, 'Item 5', 20, 0);
+(1, 'Pizza', 100, 0),
+(2, 'Burger', 45, 0),
+(3, 'Maggi', 20, 0),
+(4, 'chaowmin', 60, 0),
+(5, 'Fry Rice', 40, 0);
 
 -- --------------------------------------------------------
 
@@ -54,6 +56,7 @@ CREATE TABLE `orders` (
   `id` int(11) NOT NULL,
   `customer_id` int(11) NOT NULL,
   `address` varchar(300) NOT NULL,
+  `pincode` int(6) NOT NULL,
   `description` varchar(300) NOT NULL,
   `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `payment_type` varchar(16) NOT NULL DEFAULT 'Wallet',
@@ -66,13 +69,13 @@ CREATE TABLE `orders` (
 -- Dumping data for table `orders`
 --
 
-INSERT INTO `orders` (`id`, `customer_id`, `address`, `description`, `date`, `payment_type`, `total`, `status`, `deleted`) VALUES
-(1, 2, 'Address 2', 'Sample Description 1', '2017-03-28 17:32:41', 'Wallet', 150, 'Yet to be delivered', 0),
-(2, 2, 'New address 2', '', '2017-03-28 17:43:05', 'Wallet', 130, 'Cancelled by Customer', 1),
-(3, 3, 'Address 3', 'Sample Description 2', '2017-03-28 19:49:33', 'Cash On Delivery', 130, 'Yet to be delivered', 0),
-(4, 3, 'Address 3', '', '2017-03-28 19:52:01', 'Cash On Delivery', 130, 'Cancelled by Customer', 1),
-(5, 3, 'New Address 3', '', '2017-03-28 20:47:28', 'Wallet', 285, 'Paused', 0),
-(6, 3, 'New Address 3', '', '2017-03-30 00:43:31', 'Wallet', 325, 'Cancelled by Customer', 1);
+INSERT INTO `orders` (`id`, `customer_id`, `address`, `pincode`, `description`, `date`, `payment_type`, `total`, `status`, `deleted`) VALUES
+(13, 23, 'lkijuhytrn', 256845, '', '2019-04-23 01:30:49', 'Cash On Delivery', 25, 'Delivered', 0),
+(14, 24, 'sulipoo', 896475, '', '2019-04-23 01:35:01', 'Cash On Delivery', 175, 'Yet to be delivered', 0),
+(15, 25, 'gxdfcgvhjkl;lk', 656846, '', '2019-04-23 01:41:08', 'Cash On Delivery', 25, 'Yet to be delivered', 0),
+(16, 23, 'lkijuhytrn', 256845, '', '2019-04-23 03:12:17', 'Cash On Delivery', 130, 'Yet to be delivered', 0),
+(17, 26, 'VILLAGE RAHSU JANOBI PATTI POST NADAWA BISHUNPUR', 274401, '', '2019-04-24 23:30:59', 'Cash On Delivery', 45, 'Yet to be delivered', 0),
+(18, 23, 'lkijuhytrn', 256845, '', '2019-04-25 01:25:52', 'Cash On Delivery', 85, 'Yet to be delivered', 0);
 
 -- --------------------------------------------------------
 
@@ -93,20 +96,17 @@ CREATE TABLE `order_details` (
 --
 
 INSERT INTO `order_details` (`id`, `order_id`, `item_id`, `quantity`, `price`) VALUES
-(1, 1, 2, 2, 90),
-(2, 1, 3, 3, 60),
-(3, 2, 2, 2, 90),
-(4, 2, 3, 2, 40),
-(5, 3, 2, 2, 90),
-(6, 3, 3, 2, 40),
-(7, 4, 2, 2, 90),
-(8, 4, 3, 2, 40),
-(9, 5, 2, 5, 225),
-(10, 5, 3, 2, 40),
-(11, 5, 5, 1, 20),
-(12, 6, 2, 5, 225),
-(13, 6, 3, 3, 60),
-(14, 6, 5, 2, 40);
+(1, 13, 1, 1, 25),
+(2, 14, 1, 1, 25),
+(3, 14, 2, 2, 90),
+(4, 14, 3, 3, 60),
+(5, 15, 1, 1, 25),
+(6, 16, 2, 1, 45),
+(7, 16, 3, 2, 40),
+(8, 16, 4, 3, 45),
+(9, 17, 2, 1, 45),
+(10, 18, 2, 1, 45),
+(11, 18, 3, 2, 40);
 
 -- --------------------------------------------------------
 
@@ -130,7 +130,8 @@ CREATE TABLE `tickets` (
 --
 
 INSERT INTO `tickets` (`id`, `poster_id`, `subject`, `description`, `status`, `type`, `date`, `deleted`) VALUES
-(1, 2, 'Subject 1', 'New Description for Subject 1', 'Answered', 'Support', '2017-03-30 18:08:51', 0);
+(1, 2, 'Subject 1', 'New Description for Subject 1', 'Open', 'Support', '2017-03-30 18:08:51', 0),
+(2, 21, 'sklaj', 'slkdjsdkldowd;ljsnddcdcjkd', 'Open', 'Support', '2019-04-23 00:31:16', 0);
 
 -- --------------------------------------------------------
 
@@ -154,7 +155,9 @@ INSERT INTO `ticket_details` (`id`, `ticket_id`, `user_id`, `description`, `date
 (1, 1, 2, 'New Description for Subject 1', '2017-03-30 18:08:51'),
 (2, 1, 2, 'Reply-1 for Subject 1', '2017-03-30 19:59:09'),
 (3, 1, 1, 'Reply-2 for Subject 1 from Administrator.', '2017-03-30 20:35:39'),
-(4, 1, 1, 'Reply-3 for Subject 1 from Administrator.', '2017-03-30 20:49:35');
+(4, 1, 1, 'Reply-3 for Subject 1 from Administrator.', '2017-03-30 20:49:35'),
+(5, 2, 21, 'slkdjsdkldowd;ljsnddcdcjkd', '2019-04-23 00:31:16'),
+(6, 2, 1, 'jdddd', '2019-04-23 00:48:35');
 
 -- --------------------------------------------------------
 
@@ -168,10 +171,10 @@ CREATE TABLE `users` (
   `name` varchar(15) NOT NULL,
   `username` varchar(10) NOT NULL,
   `password` varchar(16) NOT NULL,
-  `email` varchar(35) NULL,
-  `address` varchar(300) NULL,
+  `email` varchar(35) DEFAULT NULL,
+  `address` varchar(300) DEFAULT NULL,
+  `pincode` int(6) NOT NULL,
   `contact` bigint(11) NOT NULL,
-  `verified` tinyint(1) NOT NULL DEFAULT '0',
   `deleted` tinyint(4) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -179,12 +182,14 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `role`, `name`, `username`, `password`, `email`, `address`, `contact`, `verified`, `deleted`) VALUES
-(1, 'Administrator', 'Admin 1', 'root', 'toor', '', 'Address 1', 9898000000, 1, 0),
-(2, 'Customer', 'Customer 1', 'user1', 'pass1', 'mail2@example.com', 'Address 2', 9898000001, 1, 0),
-(3, 'Customer', 'Customer 2', 'user2', 'pass2', 'mail3@example.com', 'Address 3', 9898000002, 1, 0),
-(4, 'Customer', 'Customer 3', 'user3', 'pass3', '', '', 9898000003, 0, 0),
-(5, 'Customer', 'Customer 4', 'user4', 'pass4', '', '', 9898000004, 0, 1);
+INSERT INTO `users` (`id`, `role`, `name`, `username`, `password`, `email`, `address`, `pincode`, `contact`, `deleted`) VALUES
+(1, 'Administrator', 'Admin 1', 'root', 'toor', '', 'Address 1', 0, 9898000000, 0),
+(23, 'Customer', '12345', 'prashant', '12345', 's@gmail.com', 'lkijuhytrn', 256845, 1234565412, 0),
+(24, 'Customer', 'prash', 'prashant2', '12345', NULL, NULL, 0, 6987456321, 0),
+(25, 'Customer', '12345', 'prashant4', '12345', 's@g.com', 'gxdfcgvhjkl;lk', 656846, 25698745631, 0),
+(26, 'Customer', 'Diwakar Jaiswal', 'diwakar', 'Diwakar@123', 'diwakarjaiswal880@gmail.com', 'VILLAGE RAHSU JANOBI PATTI POST NADAWA BISHUNPUR', 274401, 9235686499, 0),
+(27, 'Customer', 'FUCKER', 'fuckyou@gm', 'Iwanna6161', NULL, NULL, 0, 9876543210, 0),
+(28, 'Customer', 'Gullu', 'nautanki1', '11111', 's@g.com', 'Gopal math 304', 111111, 100000000, 0);
 
 -- --------------------------------------------------------
 
@@ -202,11 +207,12 @@ CREATE TABLE `wallet` (
 --
 
 INSERT INTO `wallet` (`id`, `customer_id`) VALUES
-(1, 1),
-(2, 2),
-(3, 3),
-(4, 4),
-(5, 5);
+(13, 23),
+(14, 24),
+(15, 25),
+(16, 26),
+(17, 27),
+(18, 28);
 
 -- --------------------------------------------------------
 
@@ -227,11 +233,12 @@ CREATE TABLE `wallet_details` (
 --
 
 INSERT INTO `wallet_details` (`id`, `wallet_id`, `number`, `cvv`, `balance`) VALUES
-(1, 1, '6155247490533921', 983, 3430),
-(2, 2, '1887587142382050', 772, 1850),
-(3, 3, '4595809639046830', 532, 1585),
-(4, 4, '5475856443351234', 521, 2000),
-(5, 5, '9076633115663264', 229, 2000);
+(13, 13, '1827068632743361', 482, 2000),
+(14, 14, '9424719817343307', 775, 2000),
+(15, 15, '7883171450642213', 568, 2000),
+(16, 16, '9034669300370391', 935, 2000),
+(17, 17, '9677435160250232', 319, 2000),
+(18, 18, '306391257208530', 390, 2000);
 
 --
 -- Indexes for dumped tables
@@ -310,41 +317,49 @@ ALTER TABLE `wallet_details`
 --
 ALTER TABLE `items`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
 --
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
 --
 -- AUTO_INCREMENT for table `order_details`
 --
 ALTER TABLE `order_details`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
 --
 -- AUTO_INCREMENT for table `tickets`
 --
 ALTER TABLE `tickets`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
 --
 -- AUTO_INCREMENT for table `ticket_details`
 --
 ALTER TABLE `ticket_details`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
+
 --
 -- AUTO_INCREMENT for table `wallet`
 --
 ALTER TABLE `wallet`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
 --
 -- AUTO_INCREMENT for table `wallet_details`
 --
 ALTER TABLE `wallet_details`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+
 --
 -- Constraints for dumped tables
 --
@@ -386,6 +401,7 @@ ALTER TABLE `wallet`
 --
 ALTER TABLE `wallet_details`
   ADD CONSTRAINT `wallet_details_ibfk_1` FOREIGN KEY (`wallet_id`) REFERENCES `wallet` (`id`);
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
