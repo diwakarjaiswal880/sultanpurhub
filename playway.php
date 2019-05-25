@@ -120,14 +120,14 @@
   <!-- START MAIN -->
   <div id="main">
      <div id="logoe class="wrapper banner-wrapper innerBanner"><ul>  
-      <img height ="117px" src="images/20180308821.jpg" alt="">
+      <img  src="images/20180308821.jpg" alt="">
                     </ul>
                   </div>
     <!-- START WRAPPER -->
     <div class="wrapper">
 
       <!-- START LEFT SIDEBAR NAV-->
-          <aside  id="left-sidebar-nav">
+        <aside  id="left-sidebar-nav">
         <ul id="slide-out" class="side-nav fixed leftside-navigation">
             
             <li class="bold "><a href="index.php" class="waves-effect waves-cyan"></i> Home</a></li>
@@ -222,19 +222,140 @@
       <section id="content">
 
         <!--breadcrumbs start-->
-        <div id="breadcrumbs-wrapper">
+
+        <b><h5 style=" font-size: 30px; margin-left: 15px" class="breadcrumbs-title">PLAY WAY SCHOOL</h5></b><br>
+         <div id="breadcrumbs-wrapper">
           <div class="container">
             <div class="row">
               <div class="col s12 m12 l12">
-                <b><h6 style="font-size: 30px" class="breadcrumbs-title">History</h5></b>
-                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY;font-size: 20px"><b>Some Important Historical Events</b>
-                 <br>   
-                 The Sultanpur district Gazeteer published in 1903 A.D. throws some light on the history and origine of the district. It is seen that the chief land owning families of the past were the Rajputs of the various clans, who possessed 76.16 percent of the total land area. Among them the Rajkumars along-held over one-fourth of the district, while their kinsmen, the Bachgotis and Rajwars owned 11.4 and 3.4 percent, respectively. The Rajkumars were the proprietors of nearly the whole of Aldemau. Their chief was the Raja of Deara. The head of Bachgotis was the Raja of Kurwar while the taluqdar of Samrathpur represented another branch of the family. The chief of Rajwars was the taluqdar of Pratabpur. Another member of the Rajwars family was the Raja of Hasanpur. Allied to him were the families of Maniarpur and Gangeo and between them they owned a large portion of the central area. Next to Bachgotis and their kinsmen come the Bandhalgotis, who owned almost the whole of Amethi pargana. Their head was the Raja of Amethi while the taluqdar Shahgarh belonged to the same clan. The Rajputs with large properties in the district were the Bhale Sultans who owned 4.72 percent, the Kanhapurias with 4.7 percent, and the Bais with 2.8 percent. Of the Bhale Sultans half were Hindus and half Mussalmans. They were dwelling in the north west corner of the district in the parganas of Isauli, Musafirkhana and Jagdishpur. The Kanhpurias were chiefly confined to pargana Gaura Jamo, almost the whole of which belonged to them. The Bais were scattered about in small groups.<br><br>
-                 Another important branch of the land owning clans was the house of Raj Sah. Raj Sah had three sons, Ishri Singh, Chakrasen Singh and Rup Chand. From Ishari Singh, after nine generations came Bijai Chand, who had three sons. Harkaran Deo. Jit Rai, and Jionarain. Harkaran Deo was the ancestor of Nanemau taluqdar; the descendants of Jit Rai were the owners of Meopur Dahla, Meopur Dhaurua, and Bhadaiyan; and from Jionarain descended the Raja of Deara. The fourth descendant of Jionarain led the the first of the six colonies of Rajkumars across the Gomti and planted himself at Deara on the banks of the river. This house became one of the main branches of the Bachgotis of Sultanpur.<br>
-                 At the begining of the nineteenth century Babu Madho Singh, eleventh in descent from Jionarain was the rular of the estate which consisted of 101 villages. Babu Madho Singh who is remembered as the successful leader and who managed his property well died in 1823. He was succeded by his widow, Thakurain Dariao Kunwar, a most remarkable woman, who through toil and turmoil not only bravely held her own, but added to her estates than her husband had done in his life time. The direct line of succession had ended with the death of Thakurain’s husband, Babu Madho singh. The Next male collateral heir was Babu Rustam Sah, whom Thakurain disliked. Babu Rustam Sah was in the service of Maharaja Man Singh, the nazim of the day and with his help succeded in capturing Thakurain and made her write a deed in his favour. That formidable woman, whose pride was hurt grieved for a few months and died. Rustam Sah was given the possession of the property by the nazim. Rustam Sah came to know later that the nazim had ulterior motives in helping him. A fight would have followed and Rustam would have killed nazim, but for a pandit who advised him that the time was not propitious. Later, Rustam Sah sought asylum across the British border and was made the taluqdar of Deara, which consisted of 336 villages. Rustam Sah rendered excellent service during the Mutiny. He died in 1877 and was succeded by his nephew, Raja Rudra Pratap Singh.<br><br>
-                 Bariar Singh, the youngest brother of Rustam Sah, received an estate of 20 villages and three pattis in the parganas of Baraunsa and Aldemau in return for services rendered during the Mutiny. This property was known as Damodra or Sultanpur.<br>
-                 Sultanpur has been a historic contribution in the development of national consciousness. In the independence struggle of 1857, the revolutionaries took a pledge from the British to put an end to the overthrow of British imperialism. In the peasant movement of 1921, this district has been openly participating and the bravery and courage of the freedom fighter of Yeha in all the movements from 1930 to 1942, and later, is historic.Farmer leader Baba Ram Chandra and Baba Ram Lal are remarkable in this context, whose description of renunciation is mentioned. Jawaharlal Nehru has done in his autobiography.<br>
-                 All these local rajas were under the control of Dilli hukumat and nawabs of Avadh.
+                
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                   <b style=" font-size: 20px">Bachpan Play School, Sultanpur</b>
+                 <br>
+                 <b>Address:</b>Payagipur chauraha, Near Pathak Market, Lucknow - Varanasi Rd, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>090442 38979<br>
+                 <b>Website:</b><a href="http://www.bachpanglobal.com/"><b>www.bachpanglobal.com</b></a><br>
+              </div>
+            </div>
+          </div>
+        </div>
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Kidzee, Sultanpur</b>
+                 <br>
+                 <b>Address:</b> 777/1, PWD Road, Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 099844 01610 <br>
+                 <b>Website:</b><a href="http://www.kidzee.com/" target="_blank"><b>www.kidzee.com</b></a><br><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Magic Year Play School</b>
+                 <br>
+                 <b>Address:</b> Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 098386 43407<br>
+                 <b>Website:</b><a href="#/" target="_blank"><b>NA</b></a><br><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Golden Smile Global School</b>
+                 <br>
+                 <b>Address:</b> Near Aara Machine, Nabipur, Lohramau Rd, Dadupur, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 094554 52674<br>
+                 <b>Website:</b><a href="#/" target="_blank"><b>NA</b></a><br><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Shemford Futuristic School</b>
+                 <br>
+                 <b>Address:</b> 142, Mahuariya Rd, Gabhariya, Mahuariya, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 098188 12007 <br>
+                 <b>Website:</b><a href="http://shemfordsultanpur.co.in" target="_blank"><b>shemfordsultanpur.co.in</b></a><br><br>
+                  </div>
+            </div>
+          </div>
+        </div>       
+
+       
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Kamla Nehru Institute Of Child Education</b>
+                 <br>
+                 <b>Address:</b>  Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>05362 240 667  <br>
+                 <b>Website:</b><a href="http://www.knmt.org.in" target="_blank"><b>www.knmt.org.in</b></a><br><br>
+                  </div>
+            </div>
+          </div>
+        </div>  
+       
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Yash Convent School</b>
+                 <br>
+                 <b>Address:</b>  Laxmanpur, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 077447 75232 <br>
+                 <b>Website:</b><a href="http://yashconventschool.com" target="_blank"><b>www.yashconventschool.com</b></a><br><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b style="font-size: 20px">Gopal Public School</b></h1>
+                 <br>
+                 <b>Address:</b> Om Nagar, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 05362 240 775<br>
+                 <b>Website:</b><a href="http://www.gpssultanpur.com/" target="_blank"><b>www.gpssultanpur.com</b></a><br>
+                 </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">  
+                 <b style="font-size: 20px"> Hello Champs | Best Pre School in Sultanpur</b></h1>
+                 <br>
+                 <b>Address:</b> 828, Sitakund Rd, Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 078006 45000<br>
+                 <b>Website:</b><a href="http://www.hellochamps.com/" target="_blank"><b>www.hellochamps.com</b></a><br>
+
               </div>
             </div>
           </div>
@@ -257,7 +378,7 @@
   <!-- //////////////////////////////////////////////////////////////////////////// -->
 
   <!-- START FOOTER -->
-  <footer class="page-footer">
+ <footer class="page-footer">
     <div class="footer-copyright">
       <div class="container">
         <span>Copyright © 2019<a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>

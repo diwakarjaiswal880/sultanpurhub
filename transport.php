@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,7 +127,7 @@
     <div class="wrapper">
 
       <!-- START LEFT SIDEBAR NAV-->
-      <aside  id="left-sidebar-nav">
+         <aside  id="left-sidebar-nav">
         <ul id="slide-out" class="side-nav fixed leftside-navigation">
             
             <li class="bold "><a href="index.php" class="waves-effect waves-cyan"></i> Home</a></li>
@@ -136,7 +135,6 @@
              <li class="bold "><a href="mycity.php" class="waves-effect waves-cyan"></i> My City</a></li>
                
                <li class="bold "><a href="touristplaces.php" class="waves-effect waves-cyan"></i> Tourist Places</a></li>
-               <li class="bold "><a href="https://www.makemytrip.com/hotels/sultanpur-hotels.html" class="waves-effect waves-cyan"></i> Accommodation</a></li>
 
                <li class="bold "><a href="transport.php" class="waves-effect waves-cyan"></i> Transport</a></li>
 
@@ -145,8 +143,8 @@
                         <li class="bold active"><a class="collapsible-header waves-effect waves-cyan"></i>Food</a>
                             <div class="collapsible-body">
                                 <ul>
-                <li><a href="register.php">Registration</a>
-                  <li><a href="login.php">Login</a>
+                <li><a href="register.php" target="_blank">Registration</a>
+                  <li><a href="login.php" target="_blank">Login</a>
                                 </li>
                                 </ul>
                             </div>
@@ -207,8 +205,7 @@
                         </li>
                     </ul>
                 </li>          
-
-
+                <li class="bold "><a href="https://www.makemytrip.com/hotels/sultanpur-hotels.html" class="waves-effect waves-cyan" target="_blank"></i> Accommodation</a></li>
              <li class="bold "><a href="localservices.php" class="waves-effect waves-cyan"></i>Local Services</a></li>            
             
             
@@ -225,44 +222,53 @@
       <section id="content">
 
         <!--breadcrumbs start-->
-        <div id="breadcrumbs-wrapper">
+        <b><h5 style=" font-size: 30px; margin-left: 15px" class="breadcrumbs-title">Transport Company</h5></b>
+         <div id="breadcrumbs-wrapper">
           <div class="container">
             <div class="row">
               <div class="col s12 m12 l12">
-                <h4 class="breadcrumbs-title"><b>Transport Company</b></h4>
+                
                 <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
-
-              
-                  <h5><b>Rajdhani Interstate Transport Co(Regd):</b></h5>
+                   <b style=" font-size: 20px">Rajdhani Interstate Transport Co(Regd):</b>
                  <br>
                  <b>Address:</b>Singh Transport,Allahabad Road,Kahirabad, Sultanpur, Uttar Pradesh 228001<br>
                  <b>Phone:</b> 094502 15348 <br>
-                 <a href="http://www.ritcogroup.com/"><b>Website</b></a><br>
-
-
-
-
-                  <h5><b>Kamal Transport Company:</b></h5>
-                 <br>
-                 <b>Address:</b> New Sabji Mandi, Chowk, Sultanpur, Uttar Pradesh 228001<br>
-                 <b>Phone:</b> 097942 46937 <br>
-                 <a href="#"><b>Website</b></a><br>
-
-                 <h5><b>Rajdhani Interstate Transport Company:</b></h5>
-                 <br>
-                 <b>Address:</b> 143/2F,, Gorabarik, Payagipur, Uttar Pradesh 228001<br>
-                 <b>Phone:</b>070808 08303 <br>
-                 <a href="http://www.ritcogroup.com/"><b>Website</b></a><br>
-
-
-
-
-
+                 <b>Website:</b><a href="http://www.ritcogroup.com/"><b>www.ritcogroup.com</b></a><br>
               </div>
             </div>
           </div>
         </div>
-        
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                   <b style=" font-size: 20px">Kamal Transport Company:</b>
+                 <br>
+                 <b>Address:</b>New Sabji Mandi, Chowk, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>  097942 46937  <br>
+                 <b>Website:</b><a href="#"><b>Not Available</b></a><br>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                   <b style=" font-size: 20px">Rajdhani Interstate Transport Company:</b>
+                 <br>
+                 <b>Address:</b>143/2F,, Gorabarik, Payagipur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> >070808 08303<br>
+                 <b>Website:</b><a href="http://www.ritcogroup.com"><b>www.ritcogroup.com</b></a><br>
+              </div>
+            </div>
+          </div>
+        </div>
         <!--breadcrumbs end-->
 
 
@@ -284,7 +290,7 @@
     <div class="footer-copyright">
       <div class="container">
         <span>Copyright © 2019<a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Prashant</a></span>
+        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Diwakar Jaiswal</a></span>
         </div>
     </div>
   </footer>

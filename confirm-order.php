@@ -308,7 +308,7 @@ foreach ($_POST as $key => $value)
     <div class="footer-copyright">
       <div class="container">
         <span>Copyright © 2019<a class="grey-text text-lighten-4" href="#" target="_blank">Students</a> All rights reserved.</span>
-        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Prashant</a></span>
+        <span class="right"> Design and Developed by <a class="grey-text text-lighten-4" href="#">Diwakar Jaiswal</a></span>
         </div>
     </div>
   </footer>

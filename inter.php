@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -120,14 +121,14 @@
   <!-- START MAIN -->
   <div id="main">
      <div id="logoe class="wrapper banner-wrapper innerBanner"><ul>  
-      <img height ="117px" src="images/20180308821.jpg" alt="">
+      <img  src="images/20180308821.jpg" alt="">
                     </ul>
                   </div>
     <!-- START WRAPPER -->
     <div class="wrapper">
 
       <!-- START LEFT SIDEBAR NAV-->
-          <aside  id="left-sidebar-nav">
+        <aside  id="left-sidebar-nav">
         <ul id="slide-out" class="side-nav fixed leftside-navigation">
             
             <li class="bold "><a href="index.php" class="waves-effect waves-cyan"></i> Home</a></li>
@@ -222,19 +223,154 @@
       <section id="content">
 
         <!--breadcrumbs start-->
+        <b><h5 style="margin-left: 35px"class="breadcrumbs-title">Inter College</h5></b><br>
+
         <div id="breadcrumbs-wrapper">
           <div class="container">
             <div class="row">
               <div class="col s12 m12 l12">
-                <b><h6 style="font-size: 30px" class="breadcrumbs-title">History</h5></b>
-                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY;font-size: 20px"><b>Some Important Historical Events</b>
-                 <br>   
-                 The Sultanpur district Gazeteer published in 1903 A.D. throws some light on the history and origine of the district. It is seen that the chief land owning families of the past were the Rajputs of the various clans, who possessed 76.16 percent of the total land area. Among them the Rajkumars along-held over one-fourth of the district, while their kinsmen, the Bachgotis and Rajwars owned 11.4 and 3.4 percent, respectively. The Rajkumars were the proprietors of nearly the whole of Aldemau. Their chief was the Raja of Deara. The head of Bachgotis was the Raja of Kurwar while the taluqdar of Samrathpur represented another branch of the family. The chief of Rajwars was the taluqdar of Pratabpur. Another member of the Rajwars family was the Raja of Hasanpur. Allied to him were the families of Maniarpur and Gangeo and between them they owned a large portion of the central area. Next to Bachgotis and their kinsmen come the Bandhalgotis, who owned almost the whole of Amethi pargana. Their head was the Raja of Amethi while the taluqdar Shahgarh belonged to the same clan. The Rajputs with large properties in the district were the Bhale Sultans who owned 4.72 percent, the Kanhapurias with 4.7 percent, and the Bais with 2.8 percent. Of the Bhale Sultans half were Hindus and half Mussalmans. They were dwelling in the north west corner of the district in the parganas of Isauli, Musafirkhana and Jagdishpur. The Kanhpurias were chiefly confined to pargana Gaura Jamo, almost the whole of which belonged to them. The Bais were scattered about in small groups.<br><br>
-                 Another important branch of the land owning clans was the house of Raj Sah. Raj Sah had three sons, Ishri Singh, Chakrasen Singh and Rup Chand. From Ishari Singh, after nine generations came Bijai Chand, who had three sons. Harkaran Deo. Jit Rai, and Jionarain. Harkaran Deo was the ancestor of Nanemau taluqdar; the descendants of Jit Rai were the owners of Meopur Dahla, Meopur Dhaurua, and Bhadaiyan; and from Jionarain descended the Raja of Deara. The fourth descendant of Jionarain led the the first of the six colonies of Rajkumars across the Gomti and planted himself at Deara on the banks of the river. This house became one of the main branches of the Bachgotis of Sultanpur.<br>
-                 At the begining of the nineteenth century Babu Madho Singh, eleventh in descent from Jionarain was the rular of the estate which consisted of 101 villages. Babu Madho Singh who is remembered as the successful leader and who managed his property well died in 1823. He was succeded by his widow, Thakurain Dariao Kunwar, a most remarkable woman, who through toil and turmoil not only bravely held her own, but added to her estates than her husband had done in his life time. The direct line of succession had ended with the death of Thakurain’s husband, Babu Madho singh. The Next male collateral heir was Babu Rustam Sah, whom Thakurain disliked. Babu Rustam Sah was in the service of Maharaja Man Singh, the nazim of the day and with his help succeded in capturing Thakurain and made her write a deed in his favour. That formidable woman, whose pride was hurt grieved for a few months and died. Rustam Sah was given the possession of the property by the nazim. Rustam Sah came to know later that the nazim had ulterior motives in helping him. A fight would have followed and Rustam would have killed nazim, but for a pandit who advised him that the time was not propitious. Later, Rustam Sah sought asylum across the British border and was made the taluqdar of Deara, which consisted of 336 villages. Rustam Sah rendered excellent service during the Mutiny. He died in 1877 and was succeded by his nephew, Raja Rudra Pratap Singh.<br><br>
-                 Bariar Singh, the youngest brother of Rustam Sah, received an estate of 20 villages and three pattis in the parganas of Baraunsa and Aldemau in return for services rendered during the Mutiny. This property was known as Damodra or Sultanpur.<br>
-                 Sultanpur has been a historic contribution in the development of national consciousness. In the independence struggle of 1857, the revolutionaries took a pledge from the British to put an end to the overthrow of British imperialism. In the peasant movement of 1921, this district has been openly participating and the bravery and courage of the freedom fighter of Yeha in all the movements from 1930 to 1942, and later, is historic.Farmer leader Baba Ram Chandra and Baba Ram Lal are remarkable in this context, whose description of renunciation is mentioned. Jawaharlal Nehru has done in his autobiography.<br>
-                 All these local rajas were under the control of Dilli hukumat and nawabs of Avadh.
+                
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+
+              
+                  <b style="font-size: 20px">Government Inter College Sultanpur</b>
+                 <br>
+                 <b>Address:</b>Civil Line, Sultanpur, Uttar Pradesh 2280011<br>
+                 <b>Phone:</b>  <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+               </p></div>
+             </div>
+           </div>
+         </div>
+          <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">Madhusudan Inter College</b><
+                 <br>
+                 <b>Address:</b>  Didenagar, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>087262 89428 <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+           <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b style="font-size: 20px">Radha Rani Kunwar Krishna Balika Inter College</b>
+                 <br>
+                 <b>Address:</b> S.O Sita Kund, Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>099199 54333 <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+           <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                  <b style="font-size: 20px">M.G.S. Inter College Sultanpur Up</b>
+                 <br>
+                 <b>Address:</b> MGS Inter College Road, Patel Nagar, Civil Line, Sultanpur, Uttar Pradesh 227816<br>
+                 <b>Phone:</b> 078390 08564 <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+           <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b style="font-size: 20px">HMHM Inter College</b>
+                 <br>
+                 <b>Address:</b> Pyarepatti, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>   <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+           <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b style="font-size: 20px">Govt. Girls Intermediate College {Sultanpur}</b>
+                 <br>
+                 <b>Address:</b> Kesh Kumari, Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> 05362 240 667 <br>
+                 <b>Website:</b><a href="http://www.knmt.org.in/"><b>www.knmt.org.in</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+           <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b style="font-size: 20px">Mgs Inter College</b>
+                 <br>
+                 <b>Address:</b> Unnamed Road, Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>  <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b>Ramraji Saraswati Balika Inter College</b>
+                 <br>
+                 <b>Address:</b>Musafirkhana, Khairabad, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b>094156 14341<br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+       <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b>Maharana Pratap Inter College</b>
+                 <br>
+                 <b>Address:</b>Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+         <div id="breadcrumbs-wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col s12 m12 l12">
+                <p style="color:#3C4043;line-height: 2;font-size:15px;text-align:JUSTIFY">
+                 <b>Goverment Inter College</b>
+                 <br>
+                 <b>Address:</b>Civil Line, Sultanpur, Uttar Pradesh 228001<br>
+                 <b>Phone:</b> <br>
+                 <b>Website:</b><a href="#"><b>Website</b></a><br>
               </div>
             </div>
           </div>
