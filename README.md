@@ -63,7 +63,7 @@ All information abut Sultanpur City like History, Tourist Places, Online Food Or
 
 ![Screenshot (31)](https://user-images.githubusercontent.com/38224086/58371640-923ade00-7f30-11e9-9399-38fa602cf262.png)
 
-## Contect Us Page
+## Contact Us Page
 
 ![Screenshot (32)](https://user-images.githubusercontent.com/38224086/58371641-92d37480-7f30-11e9-827e-684c500c9ce8.png)
 
